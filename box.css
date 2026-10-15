@@ -25,6 +25,33 @@ h6 {
  * (no flexbox or grid). */
 .card h1 {
   /* Demo style -- remove me and write your own */
-  color: red;
-  margin-left: 1.5in;
+  color: white;
+  padding: 0.125in;
+  background-color: black;
+}
+
+.inline {
+  display: inline-block;
+}
+
+h2 {
+  margin-block: 0.1875in;
+  margin-inline: 0.25in;
+}
+
+.contacts {
+  background-color: antiquewhite;
+  padding: 0.125in;
+  margin-top: 0in;
+}
+
+h3 {
+  font-size: 12px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
