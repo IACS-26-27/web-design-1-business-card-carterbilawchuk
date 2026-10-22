@@ -11,16 +11,15 @@ h6 {
   margin-block: 0;
 }
 
-.card-front {
-  display: flex;
-}
-
 .card-back {
   display: flex;
   padding: 0.25in;
 }
 
-.card-back div {}
+.card-front {
+  display: flex;
+  padding: 0.25in;
+}
 
 .card h1 {
   padding: 0.125in;
@@ -67,4 +66,11 @@ p {
   font-size: 10px;
   font-family: "Martian Mono", monospace;
   font-weight: 200;
+}
+
+.background-image {
+  background-image: url('https://cms.webincluded.com/media/db5jdq1n/dsc_5397.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
 }
