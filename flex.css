@@ -18,6 +18,7 @@ h6 {
 
 .card-front {
   display: flex;
+  flex-direction: column;
   padding: 0.25in;
 }
 
@@ -28,14 +29,12 @@ h6 {
   font-family: Barlow;
 }
 
-.inline {
-  display: inline-block;
-}
-
 h2 {
-  margin-block: 0.1875in;
-  margin-inline: 0.25in;
+  padding: 0.125in;
+  background-color: #EA9902;
+  color: #182327;
   font-family: Barlow;
+  font-size: 14px;
 }
 
 .contacts {
@@ -44,7 +43,8 @@ h2 {
 }
 
 h3 {
-  padding: 10px;
+  padding-inline: 10px;
+  padding-block: 8px;
   font-size: 10px;
   font-family: "Martian Mono", monospace;
   font-weight: 200;
@@ -63,14 +63,29 @@ div {
 }
 
 p {
-  font-size: 10px;
+  padding: 10px;
+  font-size: 8px;
   font-family: "Martian Mono", monospace;
   font-weight: 200;
+  background-color: #182327;
+  color: #F5F5F5;
+  width: 100%;
+  text-align: end;
 }
 
 .background-image {
+
+  display: flex;
+  align-items: end;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
   background-image: url('https://cms.webincluded.com/media/db5jdq1n/dsc_5397.jpg');
   background-size: cover;
   background-position: center;
-  width: 100%;
+}
+
+.horizontal-flex {
+  display: flex;
+  height: 100%;
 }
