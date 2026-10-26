@@ -89,3 +89,19 @@ p {
   display: flex;
   height: 100%;
 }
+
+.card.portrait .horizontal-flex {
+  flex-direction: column;
+}
+
+.card.square .horizontal-flex {
+  flex-direction: column;
+}
+
+.card.portrait .card-back {
+  flex-direction: column;
+}
+
+.card.square img {
+  object-position: left;
+}
