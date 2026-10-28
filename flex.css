@@ -105,3 +105,15 @@ p {
 .card.square img {
   object-position: left;
 }
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 0.125in solid #EA9902;
+  border-right: 0.125in solid transparent;
+  border-bottom: 0.125in solid #EA9902;
+  border-top: 0.125in solid transparent;
+  position: absolute;
+  top: 0.25in;
+  right: 0.25in;
+}
